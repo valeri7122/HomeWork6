@@ -40,7 +40,7 @@ archives_end = ('ZIP', 'GZ', 'TAR')
 path = Path(sys.argv[1])
 
 def fold_sort(path):
-    path = Path(sys.argv[1])
+
     if not os.path.exists('images'):
         os.mkdir('images')
     else:
